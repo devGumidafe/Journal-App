@@ -5,8 +5,10 @@ import {
     Redirect,
     Switch
 } from "react-router-dom";
-import { login } from '../../actions/auth';
 import { firebase } from '../../firebase/firebaseConfig';
+import ClipLoader from "react-spinners/ClipLoader";
+import { css } from "@emotion/react";
+import { login } from '../../actions/auth';
 import { JournalScreen } from '../journal/JournalScreen';
 import { AuthRouter } from './AuthRouter';
 import { PrivateRoute } from './PrivateRoute';
@@ -18,6 +20,12 @@ export const AppRouter = () => {
 
     const [checking, setChecking] = useState(true);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    const override = css`
+                display: block;
+                margin: 0 auto;
+                border-color: #5C62C5;
+            `;
 
     useEffect(() => {
         firebase.auth().onAuthStateChanged((user) => {
@@ -34,12 +42,16 @@ export const AppRouter = () => {
 
     }, [dispatch, setChecking, setIsLoggedIn])
 
-    if (checking) {
+    /* if (checking) {
         return <h1>Espere...</h1>
-    }
+    } */
+
+
 
     return (
         <Router>
+            <ClipLoader loading={checking} css={override} size={100} />
+
             <Switch>
                 <PublicRoute path="/auth" component={AuthRouter} isAuthenticated={isLoggedIn} />
                 <PrivateRoute exact path="/" component={JournalScreen} isAuthenticated={isLoggedIn} />
