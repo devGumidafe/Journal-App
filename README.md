@@ -6,4 +6,4 @@ Usa firebase para almacenar las notas y cloudinary para las imagenes.
 
 Tiene autenticación con firebase.
 
-[Demo APP](https://devgumidafe.github.io/heroesApp/)
+[Demo APP](https://devgumidafe.github.io/Journal-App/)
