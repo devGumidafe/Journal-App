@@ -37,7 +37,9 @@ export const NoteScreen = () => {
 
             <NotesAppBar />
 
-            <div className="notes__content">
+            <div 
+            className="notes__content animate__animated animate__fadeInRight"
+            >
                 <input
                     type="text"
                     name="title"

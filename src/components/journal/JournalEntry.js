@@ -18,7 +18,7 @@ export const JournalEntry = ({ ...props }) => {
 
     return (
         <div
-            className="journal__entry pointer"
+            className="journal__entry pointer animate__animated animate__fadeInRight"
             onClick={handleEntryClick}
         >
             {

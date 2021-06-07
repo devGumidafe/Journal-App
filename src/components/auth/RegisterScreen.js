@@ -9,7 +9,7 @@ import { useForm } from '../../hooks/useForm';
 export const RegisterScreen = () => {
 
     const dispatch = useDispatch();
-    const { msgError, loading} = useSelector(state => state.ui);// Extrae el estado
+    const { msgError, loading } = useSelector(state => state.ui);// Extrae el estado
 
     const [formValues, handleInputChange] = useForm({
         name: '',
@@ -59,7 +59,10 @@ export const RegisterScreen = () => {
         <>
             <h3 className="auth__title">Register</h3>
 
-            <form onSubmit={handleRegister}>
+            <form
+                onSubmit={handleRegister}
+                className="animate__animated animate__fadeIn"
+            >
 
                 {
                     msgError &&
