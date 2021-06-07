@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/devGumidafe/Journal-App",
   "name": "journal-app",
+  "homepage": "https://github.com/devGumidafe/Journal-App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
