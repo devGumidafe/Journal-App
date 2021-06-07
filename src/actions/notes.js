@@ -56,7 +56,7 @@ export const setNotes = (notes) => {
 }
 
 export const loadNotes = async (uid) => {
-    const notesSnap = await db.collection(`${uid}/journal/notes`).get();
+    const notesSnap = await db.collection(`${uid}/journal/notes`).orderBy('date', 'desc').get();
     const notes = [];
 
     notesSnap.forEach(note => {
