@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/devGumidafe/Journal-App/static/css/main.81d3b07e.chunk.css",
+    "main.js": "/devGumidafe/Journal-App/static/js/main.a10176f4.chunk.js",
+    "main.js.map": "/devGumidafe/Journal-App/static/js/main.a10176f4.chunk.js.map",
+    "runtime-main.js": "/devGumidafe/Journal-App/static/js/runtime-main.fa5e1d3b.js",
+    "runtime-main.js.map": "/devGumidafe/Journal-App/static/js/runtime-main.fa5e1d3b.js.map",
+    "static/js/2.308a0216.chunk.js": "/devGumidafe/Journal-App/static/js/2.308a0216.chunk.js",
+    "static/js/2.308a0216.chunk.js.map": "/devGumidafe/Journal-App/static/js/2.308a0216.chunk.js.map",
+    "index.html": "/devGumidafe/Journal-App/index.html",
+    "static/css/main.81d3b07e.chunk.css.map": "/devGumidafe/Journal-App/static/css/main.81d3b07e.chunk.css.map",
+    "static/js/2.308a0216.chunk.js.LICENSE.txt": "/devGumidafe/Journal-App/static/js/2.308a0216.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa5e1d3b.js",
+    "static/js/2.308a0216.chunk.js",
+    "static/css/main.81d3b07e.chunk.css",
+    "static/js/main.a10176f4.chunk.js"
+  ]
+}
