@@ -11,12 +11,30 @@ export const NotesAppBar = () => {
         dispatch(startSaveNote(note));
     }
 
+    const handlePictureUpload = () => {
+        document.querySelector('#fileSelector').click()
+
+    }
+
+    const handleFileChange = () => {
+    }
+
     return (
         <div className="notes__appbar">
             <span> 28 de agosto 2020</span>
 
+            <input
+                id="fileSelector"
+                type="file"
+                style={{ display: 'none' }}
+                onChange={handleFileChange}
+            />
+
             <div>
-                <button className="btn">
+                <button
+                    className="btn"
+                    onClick={handlePictureUpload}
+                >
                     Picture
                 </button>
 
