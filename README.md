@@ -2,11 +2,11 @@
 
 Aplicación en React donde se podrán guardar nuestras notas, haciendo uso de redux.
 
-### Almacena los datos en firebase.
+- Almacena los datos en firebase.
 
-### Las imagenes son guardadas en cloudinary
+- Las imagenes son guardadas en cloudinary
 
-### Autenticación con firebase.
+- Autenticación con firebase.
 
 ## Autor ✒️
 
