@@ -1,7 +1,18 @@
-# Journal App
+# Note App
 
-Aplicación en React donde se podrán guardar nuestras notas usando redux.
+Aplicación en React donde se podrán guardar nuestras notas, haciendo uso de redux.
 
-Usa firebase para almacenar las notas y cloudinary para las imagenes.
+### Almacena los datos en firebase.
 
-Tiene autenticación con firebase.
+### Las imagenes son guardadas en cloudinary
+
+### Autenticación con firebase.
+
+## Autor ✒️
+
+- **Gumidafe Socorro** - (https://github.com/devGumidafe)
+- **Web** - (https://www.gumidev.com)
+
+
+## Demo
+[Demo APP](http://noteapp.gumidev.com)
